@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projects on methods, loops and switches in Javascript.</title>
+    </head>
+
+<body style="background-color: palegreen; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <h2>Projects on Methods,Loops and Switches in Javascript.</h2>
+    <p id="demo"></p>
+    <script>
+
+        var str = "Coding is fun!";
+        document.write(Math.random());
+        document.write("<br>");
+        document.write(Math.random() * 100);
+        document.write("<br>");
+        document.write(Math.random() * 20);
+        document.write("<br>");
+        document.write(Math.floor(7.43));
+        document.write("<br>");
+        document.write(Math.ceil(7.43));
+
+        var day;
+        switch (new Date().getDay()) {
+            case 0:
+                day = "Sunday";
+                break;
+            case 1:
+                day = "Monday";
+                break;
+            case 2:
+                day = "Tuesday";
+                break;
+            case 3:
+                day = "Wednesday";
+                break;
+            case 4:
+                day = "Thursday";
+                break;
+            case 5:
+                day = "Friday";
+                break;
+            case 6:
+                day = "Saturday";
+                break;
+        }
+        document.getElementById("demo").innerHTML = "Today is " + day + ".";
+    </script>
+</body>
+</html>
